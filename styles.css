@@ -98,21 +98,12 @@ body {
     line-height: 1.6;
 }
 
-.bio-paragraph2 {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.bio-paragraph3 {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
 /* Sources styling for all pages */
 .sources-container {
     margin-top: 40px;
     margin-left: 60px;
     margin-right: 20px;
+    
 }
 
 .sources-title {
@@ -128,17 +119,6 @@ body {
     margin-left: 0;
 }
 
-.sources-paragraph2 {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    margin-left: 0;
-}
-
-.sources-paragraph3 {
-    margin-bottom: 15px;
-    line-height: 1.6;
-    margin-left: 0;
-}
 
 /* Navigation bar styling */
 .nav-bar {
@@ -224,4 +204,9 @@ body {
 
 .start-button:hover {
     transform: scale(1.1);
+}
+
+.a:visited{
+    text-decoration: none;
+    color: #000000;
 }
