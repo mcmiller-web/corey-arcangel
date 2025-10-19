@@ -1,0 +1,39 @@
+/* Background only for index.html */
+body.index-page {
+    background-image: url('images/main-bkg-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* body styling for other pages */
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/* Optional: Add some styling for better text visibility */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Style the cloud gif container */
+.cloud-gif {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style the start button link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
