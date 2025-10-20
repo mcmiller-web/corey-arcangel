@@ -245,6 +245,7 @@ body.index-page {
     padding: 10px 20px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    text-decoration: none;
 }
 
 .nav-bar a:hover {
@@ -262,7 +263,6 @@ body.index-page {
     justify-content: center;
     animation: float 3s ease-in-out infinite;
 }
-
 
 #cloud-gif-1 {
     left: 30px;
