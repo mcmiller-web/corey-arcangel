@@ -50,8 +50,6 @@ body.index-page {
     color: #ffffff;
 }
 
-
-/* Optional: Add some styling for better text visibility */
 .h1-index {
     font-family: audiowide;
     font-size: 70px;
@@ -68,7 +66,6 @@ body.index-page {
     color:#010c60;
 }
 
-
 .artwork-title {
     font-family: lexend;
     font-size: 26px;
@@ -77,7 +74,6 @@ body.index-page {
     align-items: center;
     color: #010c60;
 }
-
 
 .artwork-img-source{
     font-family: lexend;
@@ -93,10 +89,7 @@ body.index-page {
 
 #artwork-img-source-3 {
     color:#93FFE0;
-    transition: 0.3s ease;
 }
-
-
 
 .artwork-symbol{
     display: flex;
@@ -107,7 +100,6 @@ body.index-page {
 .artwork-symbol:hover {
     transform: scale(1.1);
 }
-
 
 .web-titles {
     font-family: audiowide;
@@ -128,8 +120,6 @@ body.index-page {
     color: #93FFE0;
 }
 
-
-/* Page headers styling */
 .page-header {
     font-family: audiowide;
     font-size: 70px;
@@ -230,7 +220,6 @@ body.index-page {
     color:#ffffff;
 }
 
-
 /* Navigation bar styling */
 .nav-bar {
     display: flex;
@@ -252,7 +241,6 @@ body.index-page {
 .nav-bar a {
     font-family: audiowide;
     font-size: 20px;
-    text-decoration: none;
     color: inherit;
     padding: 10px 20px;
     border-radius: 5px;
