@@ -3,6 +3,11 @@
     src: url(fonts/Audiowide-Regular.ttf);
 }
 
+@font-face {
+    font-family: lexend;
+    src: url(fonts/Lexend-VariableFont_wght.ttf);
+}
+
 /* Background only for index.html */
 body.index-page {
     background-image: url('images/main-bkg-img.png');
@@ -15,59 +20,114 @@ body.index-page {
     min-height: 100vh;
 }
 
-/* body styling for other pages */
-body {
-    margin: 0;
-    padding: 0;
-}
-
-/* Individual page background colors and styling */
+/* Individual page background colors */
 .bodyindex-page {
     background: rgba(112, 11, 162, 0.733);
 }
 
 .bodyartworks-page {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: #64BCFF;
     color: white;
 }
 
 .bodybowling-page {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background: #079B80;
     color: #333;
 }
 
 .bodyshot-warhol-page {
-    background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+    background: #7E7AFF;
     color: #333;
 }
 
 .bodymario-clouds-page {
-    background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+    background: #fbcd62;
     color: #333;
 }
 
 .bodyartist-bio-page {
-    background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    color: #333;
+    background: #6A34FF;
+    color: #ffffff;
 }
 
 
 /* Optional: Add some styling for better text visibility */
 .h1-index {
     font-family: audiowide;
-    font-size: 65px;
+    font-size: 70px;
     color: white;
     position: fixed;
-    bottom: 220px;
-    right: 95px;
-    margin-top: 50px;
+    bottom: 200px;
+    right: 40px;
+    margin-top: 60px;
 }
+
+.artwork-blip{
+    margin-left: 23px;
+    font-family: lexend;
+    color:#010c60;
+}
+
+
+.artwork-title {
+    font-family: lexend;
+    font-size: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #010c60;
+}
+
+
+.artwork-img-source{
+    font-family: lexend;
+}
+
+#artwork-img-source-1 {
+    color:#ff0808
+}
+
+#artwork-img-source-2 {
+    color:#FFFF00;
+}
+
+#artwork-img-source-3 {
+    color:#93FFE0;
+    transition: 0.3s ease;
+}
+
+
+
+.artwork-symbol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.artwork-symbol:hover {
+    transform: scale(1.1);
+}
+
 
 .web-titles {
     font-family: audiowide;
     font-size: 60px;
-    color: aliceblue;
+    margin-top: 33px;
+    margin-left:20px;
 }
+
+#web-titles-1{
+    color: #bf0000;
+}
+
+#web-titles-2{
+    color: #FFFF00;
+}
+
+#web-titles-3{
+    color: #93FFE0;
+}
+
 
 /* Page headers styling */
 .page-header {
@@ -80,11 +140,15 @@ body {
 .artist-bio-layout {
     display: flex;
     align-items: flex-start;
+    font-family: lexend;
+    font-size: 21px;
     gap: 30px;
     margin: 20px;
+    margin-top: 40px;
 }
 
 .artist-image-bio {
+    margin-top: 35px;
     margin-left: 40px;
     flex-shrink: 0;
 }
@@ -98,25 +162,72 @@ body {
     line-height: 1.6;
 }
 
+#bio-paragraph-1 {
+    color: #ffff;
+}
+
 /* Sources styling for all pages */
 .sources-container {
     margin-top: 40px;
-    margin-left: 60px;
     margin-right: 20px;
-    
+    margin-left: 20px;
+    font-family: lexend;
+}
+
+#sources-container-1 {
+    color: #ffff;
 }
 
 .sources-title {
     font-family: audiowide;
-    font-size: 30px;
+    font-size: 40px;
+    margin-top: 85px;
     margin-bottom: 20px;
+    margin-left: 5px;
     color: inherit;
+}
+
+#sources-title-1 {
+    color:#bf0000;
+}
+
+#sources-title-2 {
+    color: #FFFF00;
+}
+
+#sources-title-3 {
+    color: #93FFE0;
 }
 
 .sources-paragraph {
     margin-bottom: 15px;
     line-height: 1.6;
     margin-left: 0;
+    margin-bottom: 20px;
+}
+
+#sources-paragraph-1 {
+    color:#ff0000;
+}
+
+#sources-paragraph-2 {
+    color:#ffffff;
+}
+
+.artwork-paragraph-layout {
+    font-family: lexend;
+    font-size: 25px;
+    margin-top: 70px;
+    margin-bottom: 80px;
+    margin-left: 20px;
+}
+
+#artwork-paragraph-layout-1 {
+    color:#bf0000;
+}
+
+#artwork-paragraph-layout-2 {
+    color:#ffffff;
 }
 
 
@@ -128,9 +239,16 @@ body {
     gap: 40px;
     padding: 20px 0;
     margin: 40px 20px 20px 20px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0.2, 0.1);
 }
 
+#nav-bar-1 {
+    color: #bf0000;
+}
+
+#nav-bar-2 {
+    color: #ffff;
+}
 .nav-bar a {
     font-family: audiowide;
     font-size: 20px;
@@ -142,7 +260,7 @@ body {
 }
 
 .nav-bar a:hover {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(17, 14, 14, 0.2);
 }
 
 /* Style the cloud gif container */
@@ -155,25 +273,22 @@ body {
     align-items: center;
     justify-content: center;
     animation: float 3s ease-in-out infinite;
-    border-radius: 0px;
 }
 
+
 #cloud-gif-1 {
-    left: 40px;
+    left: 30px;
     animation-delay: 2s;
-    border-radius: 0px;
 }
 
 #cloud-gif-2 {
     left: 250px;
     animation-delay: 0.7s;
-    border-radius: 0px;
 }
 
 #cloud-gif-3 {
     left: 460px;
     animation-delay: 2s;
-    border-radius: 0px;
 }
 
 @keyframes float {
