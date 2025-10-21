@@ -13,7 +13,6 @@ body.index-page {
     background-image: url('images/main-bkg-img.png');
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     background-attachment: fixed;
     margin: 0;
     padding: 0;
@@ -75,6 +74,36 @@ body.index-page {
     color: #010c60;
 }
 
+/* Artist bio page specific styling */
+.artist-bio-layout {
+    display: flex;
+    align-items: flex-start;
+    font-family: lexend;
+    font-size: 21px;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.artist-image-bio {
+    margin-top: 35px;
+    margin-left: 40px;
+    flex-shrink: 0;
+}
+
+.bio-text-container {
+    flex: 1;
+}
+
+.bio-paragraph {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+#bio-paragraph-1 {
+    color: #ffff;
+}
+
+
 .artwork-img-source{
     font-family: lexend;
 }
@@ -101,22 +130,22 @@ body.index-page {
     transform: scale(1.1);
 }
 
-.web-titles {
+.artwork-titles {
     font-family: audiowide;
     font-size: 60px;
     margin-top: 33px;
     margin-left:20px;
 }
 
-#web-titles-1{
+#artwork-titles-1{
     color: #bf0000;
 }
 
-#web-titles-2{
+#artwork-titles-2{
     color: #FFFF00;
 }
 
-#web-titles-3{
+#artwork-titles-3{
     color: #93FFE0;
 }
 
@@ -124,36 +153,6 @@ body.index-page {
     font-family: audiowide;
     font-size: 70px;
     margin: 20px 0 30px 20px;
-}
-
-/* Artist bio page specific styling */
-.artist-bio-layout {
-    display: flex;
-    align-items: flex-start;
-    font-family: lexend;
-    font-size: 21px;
-    gap: 30px;
-    margin: 20px;
-    margin-top: 40px;
-}
-
-.artist-image-bio {
-    margin-top: 35px;
-    margin-left: 40px;
-    flex-shrink: 0;
-}
-
-.bio-text-container {
-    flex: 1;
-}
-
-.bio-paragraph {
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-#bio-paragraph-1 {
-    color: #ffff;
 }
 
 /* Sources styling for all pages */
@@ -228,7 +227,7 @@ body.index-page {
     gap: 40px;
     padding: 20px 0;
     margin: 40px 20px 20px 20px;
-    background-color: rgba(0, 0, 0.2, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 #nav-bar-1 {
@@ -249,7 +248,7 @@ body.index-page {
 }
 
 .nav-bar a:hover {
-    background-color: rgba(17, 14, 14, 0.2);
+    background-color: rgba(62, 61, 61, 0.2);
 }
 
 /* Style the cloud gif container */
@@ -311,5 +310,9 @@ body.index-page {
 
 .a:visited{
     text-decoration: none;
-    color: #000000;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
