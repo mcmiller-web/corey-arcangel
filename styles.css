@@ -340,5 +340,94 @@ a:link {
 }
 
 @media only screen and (max-width: 600px) {
+    .h1-index,
+    .page-header {
+        font-size: 38px;
+        text-align:center;
+        position: static;
+        margin: 25px 0;
+    }
 
+    .nav-bar {
+        felx-direction: column;
+        gap: 15px;
+        margin: 20px;
+        padding: 10px 0;
+    }
+
+    .nav-bar a {
+        font-size: 18px;
+        padding: 8px 12px;
+    }
+
+    .artist-bio-layout {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: 20px;
+    }
+
+    img,
+    .artist-image-bio,
+    .cloud-gif img {
+        width: 90%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .artwork-title,
+    .artwork-paragraph-layout,
+    .sources-container {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    .start-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .h1-index,
+    .page-header {
+        font-size: 55px;
+        text-align: center;
+    }
+
+    .nav-bar {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 25px;
+        margin: 30px 10px;
+    }
+
+    .nav-bar a {
+        font-size: 19px;
+        padding: 10px 16px;
+    }
+
+    .artist-bio-layout {
+        flex-direction: row;
+        align-items: center;
+        gap: 15px;
+        margin: 30px;
+    }
+
+    .artist-image-bio img,
+    .cloud-gif img {
+        width: 70%;
+        height: auto;
+    }
+
+    .artwork-title,
+    .artwork-paragraph-layout,
+    .sources-container {
+        font-size: 20px;
+    }
+
+    .start-button {
+        bottom: 20px;
+        right:20px;
+    }
 }
