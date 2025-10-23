@@ -308,6 +308,32 @@ body.index-page {
     transform: scale(1.1);
 }
 
+/* Global link styling - remove underlines and prevent color changes */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .a:visited{
     text-decoration: none;
     color: #ffffff;
